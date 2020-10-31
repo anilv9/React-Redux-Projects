@@ -37,7 +37,11 @@ class Contact extends Component {
                     })
                   }
                   className="fas fa-sort-down"
-                  style={{ cursor: "pointer" }}
+                  style={{
+                    cursor: "pointer",
+                    marginLeft: "5px",
+                    marginTop: "0",
+                  }}
                 ></i>
                 <i
                   className="fas fa-times"
